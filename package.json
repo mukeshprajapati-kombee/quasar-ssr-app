@@ -12,7 +12,9 @@
     "test": "echo \"No test specified\" && exit 0",
     "dev": "quasar dev",
     "build": "quasar build",
-    "postinstall": "quasar prepare"
+    "postinstall": "quasar prepare",
+    "build:ssr": "quasar build -m ssr",
+    "start:ssr": "node dist/ssr/server.js"
   },
   "dependencies": {
     "@quasar/extras": "^1.16.4",
